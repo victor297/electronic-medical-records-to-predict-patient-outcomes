@@ -48,8 +48,8 @@ def predict_condition(age, gender, ethnicity, symptoms):
     return condition, clinical_findings
 
 # Streamlit UI
-st.title('EMR Analysis and Prediction')
-
+st.subheader('Natural language processing techniques for analysis of electronic medical records to predict patient outcomes')
+st.write('By Hameedah')
 st.header('Input Patient Data')
 
 age = st.slider('Age', 18, 90, 30)
