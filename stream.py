@@ -52,7 +52,7 @@ st.subheader('Natural language processing techniques for analysis of electronic 
 st.write('By Hameedah')
 st.header('Input Patient Data')
 
-age = st.slider('Age', 18, 90, 30)
+age = st.slider('Age', 3, 90, 30)
 gender = st.selectbox('Gender', ['Male', 'Female'])
 ethnicity = st.selectbox('Ethnicity', ['Caucasian', 'African American', 'Hispanic', 'Asian', 'Other'])
 symptoms = st.multiselect('Symptoms', ['headache', 'dizziness', 'shortness of breath', 'nosebleeds', 'increased thirst', 'frequent urination',
